@@ -30,7 +30,8 @@ public class PowerSetData {
             int n; // will be the length of myArray
             if (inputTokens.hasMoreTokens()) {
                     n = inputTokens.countTokens();
-            } else {
+            }
+            else {
                     throw new NoSuchElementException();
             }
 
@@ -53,7 +54,8 @@ public class PowerSetData {
                             tempArray[randNr] = true;
                             myArray[i] = randNr;
                     }
-            } else {
+            }
+            else {
                     int [] array = new int[n];
                     int count =0;
 
